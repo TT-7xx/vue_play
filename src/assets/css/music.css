@@ -1,0 +1,659 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#content{
+    width: 1519px;
+    height: 1800px;
+    background-color: #F7F7F7
+}
+
+
+#Top{
+    width: 1519px;
+    height: 550px;
+    /* padding-top: 20px; */
+    background: url(../images/pictures/背景.jpg)0 0/100% 50% no-repeat;
+    position: relative;
+    /* background-color:rgb(240, 240, 240); */
+}
+#Top .m-info{
+    height: 36px;
+    background: #fff;
+    border-radius:5px ;
+    padding: 8px 0;
+    width: 1200px;
+    position: absolute;
+    top:125px;
+    left: 160px;
+}
+#Top .m-info .notice{
+    width: 288px;
+    padding-left:12px;
+    float: left;
+    line-height:38px;
+}
+#Top .m-info .notice span{
+    color: black;
+    padding-left: 8px;
+    font-family:cursive;
+    font-size: 18px;
+}
+#Top .m-info .notice img{
+    width:34px;
+    height: 38px;
+    float: left;
+}
+
+
+.list-img{
+    position: relative;
+    width: 590px;
+    height: 80px;
+    float: left;
+    margin-top: 185px;
+    background-color: rgb(255, 255, 255);
+}
+.list-img ul{
+    margin-left: 12px;
+}
+.list-img ul li{
+    width: 182px;
+    height: 180px;
+    float: left;
+    border-radius: 5px;
+    margin: 4px 10px 0px 0px;
+}
+.list-img ul li img{
+    width: 100%;
+    border-radius: 5px;
+}
+.list-box{
+    position: relative;
+}
+.list-box div{
+    position: absolute;
+    top: 0;
+}
+.introduce{
+    color: white;
+    position: absolute;
+    width: 143px;
+    height: 133px;
+    padding:30px 15px 20px 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+#center .person{
+    width:1200px;
+    height: 375px;
+    position: relative;
+    margin: auto;
+    margin-right: 188px;
+    margin-bottom: 40px;
+}
+#center .person .title-big{
+    height: 45px;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+#center .person .title-big .big{
+    font-size: 34px;
+    font-family: '微软雅黑';
+    position: absolute; 
+    top: 0;
+    left: 0;
+    color:DarkOrange;
+}
+#center .person .title-big .small{
+    font-size: 26px;
+    position: absolute;
+    top: 10px;
+    left: 75px;
+    color: #666;
+}
+#center .person .wrap .ul-wrap .comic-content .img-big-cover{
+    float: left;
+    overflow: hidden;
+}
+#center .person .wrap .ul-wrap .comic-content .img-big-cover img{
+    width: 225px;
+    height: 311px;
+    border: 1px solid #c1b6a9;
+    position: relative;
+    left: 28px;
+}
+#center .person .wrap .ul-wrap .comic-content .comic-content-text{
+    width: 630px;
+    float: left;
+    margin-left: 15px;
+}
+#center .person .wrap .ul-wrap .comic-content .comic-content-text h3 .name{
+    font-size: 18px;
+    color: #333;
+    font-family: "Microsoft YaHei";
+}
+#center .person .wrap .ul-wrap .comic-content .comic-content-text .more-information{
+    font-size: 15px;
+    color: #ff9a6a;
+    font-family: "Microsoft YaHei";
+    float: right;
+}
+#center .person .wrap .ul-wrap .comic-content .comic-content-text .information-text p{
+    color: #666;
+    font-size: 12px;
+    display: inline; 
+}
+#center .person .wrap .ul-wrap .comic-content .comic-content-text .about-author{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #999;
+}
+#center .person .wrap .comic-list-wrap{
+    width: 964px;
+    height: 115px;
+    position: absolute;
+    left:240px;
+    bottom: 1px;
+}
+.video-list a {
+    border-right: 1px solid #474747;
+    height: 115px;
+    background-color: #2c2c2c;
+}
+.play-man {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+.video-list .current .play-button {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    z-index: 4;
+    display: block;
+    background-color: khaki;
+    background: url('../images/pictures/sprite.png') no-repeat -233px -409px;
+	width: 33px;
+	height: 32px;
+}
+.video-list .play-text {
+    color: #ffffff;
+    position: relative;
+    top: 15px;
+    font-family: '微软雅黑';
+    left: 12px;
+}
+.play-text i {
+    color: #fff;
+    text-shadow: 1px 3px 3px #000;
+    -moz-text-shadow: 1px 3px 3px #000;
+    -webkit-text-shadow: 1px 3px 3px #000;
+    font-family: "Microsoft YaHei";
+    display: block;
+}
+.play-text-sub1 {
+    font-size: 21px;
+    line-height: 32px;
+}
+.play-text-sub2 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+#center .Game-music{
+    width: 1200px;
+    height: 375px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 40px;
+}
+#center .Game-music .title-wr{
+    width: 145px;
+    height: 45px;
+    margin-top: 20px;
+    margin-bottom: 15px; 
+    cursor: pointer;
+}
+#center .Game-music .title-wr .big{
+    font-size: 34px;
+    font-family: '微软雅黑';
+    top: 0;
+    left: 0;
+    color: rgba(253, 0, 0, 0.822); 
+}
+#center .Game-music .title-wr .small{
+    font-size: 26px;
+    position: absolute;
+    top: 10px;
+    left: 75px;
+    color: #666;
+}
+#center .Game-music .game-content-wr .game-content-left-wr .img-cover{
+    width: 215px;
+    height: 285px;
+    padding: 1px 0 0 1px;
+    background: url(../images/pictures/sprite.png) 0 -123px no-repeat;
+    overflow: hidden;
+}
+#center .Game-music .game-content-wr .game-content-left-wr .img-cover img{
+    width: 210px;
+}
+#center .Game-music .game-content-wr .game-content-right-wr{
+    width: 966px;
+    margin: -284px 0 0 236px;
+    position: relative;
+}
+#center .Game-music .game-content-wr .game-content-right-wr .game-intro{
+    width: 940px;
+    height: 104px;
+    margin-bottom: 17px;
+}
+#center .Game-music .game-content-wr .game-content-right-wr .game-intro .clearfix .text-left{
+    float: left;
+}
+#center .Game-music .game-content-wr .game-content-right-wr .game-intro .game-text .clearfix .text-left .game-name{
+    font-size: 18px;
+    color: #333;
+    font-family: "Microsoft YaHei";
+}
+#center .Game-music .game-content-wr .game-content-right-wr .game-intro .game-text .clearfix .game-more{
+    color: #ff9a6a;
+    font: normal 16px/28px "微软雅黑";
+    float: right;
+    font-weight: 700;
+}
+#center .Game-music .game-content-wr .game-content-right-wr .game-intro .game-text .clearfix .game-more .game-icon{
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff9a6a;
+    font-family:'宋体';
+    padding-left: 2px;
+}
+#center .Game-music .game-content-wr .game-content-right-wr .game-intro .game-text .game-type{
+    padding-top: 32px;
+    color: #999;
+}
+#center .Game-music .game-content-wr .game-content-right-wr .game-intro .game-text .game-type strong{
+    font-weight: normal;
+}
+#center .Game-music .game-content-wr .game-content-right-wr .game-intro .game-text .bottom-text{
+    padding-top: 5px;
+    line-height: 22px;
+}
+#center .Game-music .game-content-wr .game-content-right-wr .game-intro .game-text .bottom-text a{
+    color: #666;
+}
+#center .Game-music .game-content-wr .game-content-right-wr .game-handle .in-handle img{
+    width: 100px;
+    height: 133px;
+}
+#center .Game-music .game-content-wr .game-content-right-wr .game-handle .in-handle li{
+    width: 120px;
+    float: left;
+    text-align: center;
+}
+#center .Game-music .game-content-wr .game-content-right-wr .game-handle .in-handle .bottom-game-name{
+    line-height: 26px;
+    text-align: center;
+}
+#center .Game-music .game-content-wr .game-content-right-wr .game-handle .in-handle .bottom-game-name .name-text{
+     color: #555;
+}
+
+
+#bottom{
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+}
+#bottom-left{
+    width: 916px;
+    height: 350px;
+    float: left;
+}
+#bottom-right{
+    width: 100px;
+    height: 350px;
+    float: right;
+}
+#bottom .Nav-title{
+    position: relative;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bottom .Nav-title .tags-list{
+    height: 42px;
+    line-height: 42px;
+    cursor: pointer;
+}
+#bottom .Nav-title .tags-list a.active{
+    cursor: pointer;
+    color: #e15a00;
+}
+.Nav-title  ul li a{
+    font-family: 微软雅黑;
+    font-size: 20px;
+    color: #666;
+    float: left;
+    margin-right: 18px;
+}
+#bottom .Banner-Rank-1{
+    width: 100px;
+    height:360px;
+    margin-top: 40px;
+    position: relative;
+}
+#bottom .Banner-Rank .Banner-wr{
+    float: left;
+    width: 912px;
+    overflow: hidden;
+    position: relative;
+}
+#bottom .Banner-Rank .Banner-wr .in-banner{
+    height: 355px;
+}
+#bottom .Banner-Rank .Banner-wr .in-banner .img-1{
+    width: 366px;
+    height: 356px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+#bottom .Banner-Rank .Banner-wr .in-banner-name-box{
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+}
+#bottom .Banner-Rank .Banner-wr .in-banner-name-1{
+    background-color: #f1823a;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#bottom .Banner-Rank .Banner-wr .in-banner-name-2{
+    background-color: #7fc63a;
+    position: absolute;
+    left: 373px;
+    top: 147px;
+}
+.in-banner-name-1 .icon-right{
+    background: url(../images/pictures/sprite.png) no-repeat;
+    width: 7px;
+	height: 30px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -7px;
+}
+.in-banner-name-1 .icon-right{
+    background-position: -482px -206px;
+}
+#bottom .Banner-Rank .Banner-wr .in-banner .img-2{
+    width: 310px;
+    height: 177px;
+    top: 0;
+    left: 373px;
+    position: absolute;
+}
+.in-banner-name-2  .icon-right{
+    background-position: -499px -206px;
+}
+
+#bottom .Banner-Rank .Banner-wr .in-banner .img-3{
+    width: 222px;
+    height: 177px;
+    top: 0;
+    left: 690px;
+    position: absolute;
+}
+#bottom .Banner-Rank .Banner-wr .in-banner-name-3{
+    background-color: #5fa3ea;
+    position: absolute;
+    left: 690px;
+    top: 147px;
+}
+.in-banner-name-3  .icon-right{
+    background-position: -528px -206px;
+}
+#bottom .Banner-Rank .Banner-wr .in-banner .img-4{
+    width: 229px;
+    height: 172px;
+    top: 184px;
+    left: 373px;
+    position: absolute;
+}
+#bottom .Banner-Rank .Banner-wr .in-banner-name-4{
+    background-color: #f9ba49;
+    position: absolute;
+    left: 373px;
+    bottom: 0;
+}
+.in-banner-name-4 .icon-right{
+    background-position: -514px -206px;
+}
+#bottom .Banner-Rank .Banner-wr .in-banner .img-5{
+    width: 303px;
+    height: 172px;
+    top: 184px;
+    left: 609px;
+    position: absolute;
+}
+#bottom .Banner-Rank .Banner-wr .in-banner-name-5{
+    background-color: #7fc63a;
+    position: absolute;
+    left: 609px;
+    bottom: 0;
+}
+.in-banner-name-5 .icon-right{
+    background-position: -499px -206px;
+}
+
+
+#bottom .Banner-Rank .right-rank{
+    width: 255px;
+    height: 355px;
+    padding: 3px 12px 0 14px;
+    background: url(../images/pictures/sprite.png) -544px 0 no-repeat ;
+    overflow: hidden;
+    float: right;
+}
+
+#bottom .Banner-Rank .right-rank .clearfix{
+    zoom: 1;
+}
+#bottom .Banner-Rank .right-rank .tab-handle h2{
+    width: 90px;
+    color: #ff9a6a;
+    text-shadow: 0 0 0 #ff9a6a;
+    float: left;
+    height: 48px;
+    font: normal 18px/48px "微软雅黑";
+}
+#bottom .Banner-Rank .right-rank .tab-handle li{
+    margin-left: 12px;
+    float: left;
+    height: 48px;
+    font: normal 18px/48px "微软雅黑";
+}
+#bottom .Banner-Rank .right-rank .tab-handle .active a{
+    border-color: #ff9a6a;
+}
+#bottom .Banner-Rank .right-rank .tab-handle a{
+    display: block;
+    width: 42px;
+    color: #fff;
+    font: normal 18px/46px "微软雅黑";
+    text-align: center;
+    text-shadow: 0 0 0 #fff;
+    border-bottom: 3px solid #373533;
+}
+#bottom .Banner-Rank .right-rank .tab-content{
+    margin-top: 60px;
+    height: 220px;
+}
+.tab-content .tab-content-left{
+    width: 50%;
+    height: 220px;
+    float: left;
+}
+.tab-content-left ul li{
+    margin-bottom: 8px;
+}
+.tab-content-left ul li a{
+    margin-right: 10px;
+    color: #cfcfcf;
+    font-size: 12px;
+    cursor: pointer;
+}
+.tab-content-left ul li a:hover{
+    color: #fff;
+}
+.tab-content-left ul li .tab-content-left-text1{
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    background-color: #ff9a6a;
+    text-align: center;
+    padding-bottom: 3px;
+    font-size: 10px;
+    color: #fff;
+    border: 1px solid #393939;
+    border-radius: 2px;
+}
+.tab-content-left .rank-trend{
+    float: right;
+    width: 10px;
+    height: 13px;
+    margin-top: 8px;
+    background-image: url(../images/pictures/risk-rank.png);
+    background-repeat: no-repeat;
+    background-position: -199px -200px;
+}
+.tab-content-left p{
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    background-color: #353334;
+    text-align: center;
+    padding-bottom: 3px;
+    font-size: 10px;
+    color: #9a9a9a;
+    border: 1px solid #393939;
+    border-radius: 2px;
+}
+.tab-content-left a{
+    margin-left: 10px;
+    color: #cfcfcf;
+    font-size: 12px;
+}
+.tab-content-left a:hover{
+    color: #fff;
+}
+.tab-content-left i{
+    float: right;
+    width: 11px;
+    height: 12px;
+    margin-top: 8px;
+    background-image: url(../images/pictures/risk-rank.png);
+    background-repeat: no-repeat;
+    background-position: -199px -200px;
+}
+.tab-content .tab-content-right{
+    width: 50%;
+    height: 220px;
+    float: left;
+}
+.tab-content-right ul li{
+    margin-bottom: 8px;
+}
+.tab-content-right p{
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    background-color: #353334;
+    text-align: center;
+    padding-bottom: 3px;
+    font-size: 10px;
+    color: #9a9a9a;
+    border: 1px solid #393939;
+    border-radius: 2px;
+}
+.tab-content-right a{
+    margin-left: 10px;
+    color: #cfcfcf;
+    font-size: 12px;
+}
+.tab-content-right a:hover{
+    color: #fff;
+}
+.tab-content-right i{
+    float: right;
+    width: 11px;
+    height: 12px;
+    margin-top: 8px;
+    background-image: url(../images/pictures/risk-rank.png);
+    background-repeat: no-repeat;
+    background-position: -199px -200px;
+}
+
+.in-rank-spacing {
+    width: 100%;
+    height: 0;
+    border-top: 1px dashed #6b6b6b;
+    border-bottom: 1px dashed #474747;
+}
+.in-rank-recommend li {
+    width: 118px;
+    height: 18px;
+    padding-top: 10px;
+    line-height: 18px;
+    margin-right: 10px;
+}
+.in-rank-recommend .recommend-left{
+    float: left;
+    margin-top: 1px;
+}
+.in-rank-recommend .recommend-right{
+    float: right;
+    margin-top: -29px;
+}
+.in-rank-recommend .in-icon-jian {
+    margin: 1px 5px 0 0;
+    background-position: -151px -200px;
+    float: left;
+    width: 17px;
+    height: 16px;
+    background-image: url(../images/pictures/risk-rank.png);
+    background-repeat: no-repeat;
+}
+.in-rank-recommend a {
+    color: #ffca68;
+    font-size: 12px;
+}
+.in-rank-recommend a:hover {
+    color: #ff9900;
+}
+
+
+
+
+
+
+

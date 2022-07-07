@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.five-list{
+    width: 100%;
+    height: 800px;
+    /* background-color: rgb(255, 186, 186); */
+}
+.listing{
+	width: 1200px;
+    height: 70px;
+	/* background-color: blueviolet; */
+    margin: 0 auto;
+}
+.ph{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 8px 12px;
+    /* margin-top: 30px; */
+    /* background-color: rgb(255, 181, 181); */
+} 
+.ckgd{
+    font-size: 13px;
+    color: white;
+    padding: 8px 12px;
+    background: rgb(89, 148, 106);
+    float: right;
+    margin-top: 10px;
+    border-radius: 4px 4px 4px 4px;
+}
+.five-lists{
+    /* background-color: rgb(254, 255, 185); */
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+.lianzai{
+    width: 25%;
+    height: 600px;
+    float: left;
+    /* background-color: rgb(155, 217, 241); */
+}
+.lzb{
+    font-size: 18px;
+    color: rgb(190, 189, 109);
+    font-weight: bold;
+    margin-left: 40px;
+}
+.small{
+    font-size: 13px;
+    color: gray;
+    margin-left: 40px;
+    height: 40px;
+}
+.five-top{
+    width: 75%;
+    height: 600px;
+    /* background-color: rgb(230, 192, 255); */
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+
+.rank{
+    height: 100px;
+    /* background-color: #fff; */
+}
+.ul{
+    width: 210px;
+    height: 100px;
+}
+
+.rank-number{
+    width: 20px;
+    height: 20px;
+    color: rgb(255, 0, 0);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin: 2px;
+}
+.rank-info{
+    width: 120px;
+    height: 100px;
+    float: left;
+}
+.rank-book{
+    font-size: 14px;
+}
+.rank-author{
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.rank-title{
+    font-size: 12px;
+    color: gray;
+}
+.rank-pic{
+    width: 60px;
+    height: 100px;
+    float: right;
+}
+.rank-pic img{
+    width: 60px;
+    height: 90px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.ranks{
+    width: 100%;
+    height: 40px;
+    /* background-color: rgb(187, 241, 239); */
+}
+.rank-numbers{
+    width: 20px;
+    height: 20px;
+    color: rgb(255, 129, 45);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin: 2px;
+}
+.rank-titles{
+    float: right;
+    margin-right: 15px;
+    color: gray;
+    font-size: 12px;
+}
+
+.five-bottom{
+    height: 30px;
+    text-align: center;
+    color: rgb(87, 150, 118);
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.qianli{
+    height: 600px;
+    width: 25%;
+    float: left;
+    /* background-color: rgb(148, 245, 177); */
+}

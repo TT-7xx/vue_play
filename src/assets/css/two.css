@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.two-font{
+	width: 1200px;
+	height: 50px;
+	/* background-color: blueviolet; */
+}
+.two-tj{
+    padding: 8px 12px;
+	line-height: 50px;
+    border-radius: 0 0 2px 2px;
+    background: #bb996d;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.two-main{
+	width: 1200px;
+	height: 500px;
+	/* background-color: pink; */
+	margin: 0 auto;
+}
+.two-inner{
+	width: 100%;
+	height: 100%;
+	/* background-color: cadetblue; */
+}
+.two-look{
+	width: 50%;
+	height: 50%;
+	float: left;
+	/* background-color: coral; */
+}
+.two-left{
+	width: 30%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	/* background-color: rgb(255, 198, 198); */
+}
+.two-left img{
+	margin-top:15px ;
+	width: 110px;
+	height: 165px;
+	border-radius:4px;
+
+}
+.two-center{
+	float: right;
+	width: 70%;
+	height: 94%;
+	margin-top: 2%;
+	/* background-color: cornflowerblue; */
+}
+.two-center1{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.two-center2{
+	font-size: 12px;
+	color: rgb(100, 100, 100);
+	
+}
+.two-center3{
+	font-size: 14px;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+
+.two-center4{
+	width: 26px;
+	color: #fff;
+	font-size: 12px;
+	padding: 1px 1px;
+	background-color: rgb(250, 170, 170);
+	border-radius: 2px 2px 2px 2px;
+	float: left;
+	margin-top: 50px;
+}
+.two-center5{
+	float: left;
+	width: 50px;
+	color: #fff;
+	font-size: 12px;
+	padding: 1px 1px;
+	background-color: rgb(133, 155, 255);
+	border-radius: 2px 2px 2px 2px;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+
